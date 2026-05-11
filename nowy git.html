@@ -1,18 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Test Git</title>
+
+    <style>
+        body {
+            background: #1e1e1e;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        button {
+            padding: 12px 24px;
+            border: none;
+            background: dodgerblue;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background: royalblue;
+        }
+    </style>
 </head>
 <body>
-    1236789
-    <table>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-    </table>
+
+    <h1>Test Git 🚀</h1>
+    <p>Ćwiczenie commitów i zmian plików.</p>
+
+    <button onclick="zmienTekst()">
+        Kliknij mnie
+    </button>
+
+    <p id="tekst"></p>
+
+    <script>
+        function zmienTekst() {
+            document.getElementById("tekst").innerHTML =
+                "Git działa poprawnie 🎉";
+        }
+    </script>
+
 </body>
 </html>

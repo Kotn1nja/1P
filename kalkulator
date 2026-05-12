@@ -16,3 +16,4 @@ if dzial == 1:
     print(int(x)+int(y))
 if dzial == 2:
     print(int(x)- int(y))
+czesc aleks jak tam kalkulator 67
